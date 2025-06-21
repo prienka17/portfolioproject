@@ -1,0 +1,53 @@
+body{
+    background-image: url(/image/bbbbb.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 950px;
+    color: beige;
+    
+}
+#menu{
+    text-decoration:none;
+    vertical-align:baseline ;
+
+}
+
+#menu ul{
+    list-style-type: none;
+  
+}
+#menu ul li{
+    float: left;
+    position: relative;
+    
+}
+#menu li:last-child{
+    border-right:none;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: beige;
+    display:inline;
+    padding: 30px;
+    padding-bottom: 30px;
+}
+#menu ul li a:hover{
+    color: blue;
+}
+#menu ul li ul{
+    position: absolute;
+    left:-999999px;
+    background-color: rgb(34, 12, 37);
+}
+#menu ul li:hover ul{
+    left:0;
+}
+#menu ul li ul li{
+ float:none;
+ border-right:none ;
+ border-bottom: 20px;
+}
+.footer{
+    color: beige;
+}

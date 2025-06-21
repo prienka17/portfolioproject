@@ -1,0 +1,99 @@
+body{
+    background-color: black;
+    background-image: url(/image/ooooooooooooo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    background-size:1550px ;
+}
+.header{
+    color:beige;
+}
+#menu{
+    text-decoration:none;
+    vertical-align:baseline ;
+
+}
+
+#menu ul{
+    list-style-type: none;
+  
+}
+#menu ul li{
+    float: left;
+    position: relative;
+    
+}
+#menu li:last-child{
+    border-right:none;
+    float: right;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: rgb(249, 244, 247);
+    display:inline;
+    padding: 30px;
+    padding-bottom: 30px;
+}
+#menu ul li a:hover{
+    color: blue;
+}
+#menu ul li ul{
+    position: absolute;
+    left:-999999px;
+    background-color: rgb(34, 12, 37);
+}
+#menu ul li:hover ul{
+    left:0;
+}
+#menu ul li ul li{
+ float:none;
+ border-right:none ;
+ border-bottom: 20px;
+}
+.prienka h1{
+    color: beige;
+    text-align: center;
+    font-size: 5em;
+}
+
+.item-1, 
+.item-2, 
+.item-3 {
+  position: absolute;
+  width: 60%;
+  font-size: 3em;
+	animation-duration: 5s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+.item-1{
+	animation-name: anim-1;
+}
+
+.item-2{
+	animation-name: anim-2;
+}
+
+.item-3{
+	animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+	0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 25%; opacity: 1; }
+  66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 25%; opacity: 1; }
+  100% { left: 110%; opacity: 0; }
+}

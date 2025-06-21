@@ -1,0 +1,95 @@
+.header{
+    color:beige;
+}
+#menu{
+    text-decoration:none;
+    vertical-align:baseline ;
+
+}
+
+#menu ul{
+    list-style-type: none;
+  
+}
+#menu ul li{
+    float: left;
+    position: relative;
+    
+}
+#menu li:last-child{
+    border-right:none;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: rgb(249, 244, 247);
+    display:inline;
+    padding: 30px;
+    padding-bottom: 30px;
+}
+#menu ul li a:hover{
+    color: blue;
+}
+#menu ul li ul{
+    position: absolute;
+    left:-999999px;
+    background-color: rgb(34, 12, 37);
+}
+#menu ul li:hover ul{
+    left:0;
+}
+#menu ul li ul li{
+ float:none;
+ border-right:none ;
+ border-bottom: 20px;
+}
+.service h1{
+    color: beige;
+    text-align: center;
+    font-size: 3em;
+}
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(9, 3, 3, 0.2);
+    transition: 0.3s;
+    width: 30% ;
+    float: left;
+  }
+  
+  .card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(239, 238, 242, 0.2);
+  }
+  
+  .container {
+    height: 120px;
+    width: 120px;
+    padding: 2px 16px;
+  }
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(9, 3, 3, 0.2);
+    transition: 0.3s;
+    width: 30% ;
+    float: left;
+    position: absolute;
+    transform: translate(110%,0%);
+  }
+  
+  .card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(15, 6, 6, 0.2);
+  }
+  .card3 {
+    box-shadow: 0 4px 8px 0 rgba(9, 3, 3, 0.2);
+    transition: 0.3s;
+    width: 30.7% ;
+    float: left;
+    position: absolute;
+    top: 200px;
+    transform: translate(220%,0%);
+  }
+  
+  .card3:hover {
+    box-shadow: 0 8px 16px 0 rgba(244, 241, 241, 0.2);
+  }
+  .card{
+    float: left;
+  }
+
+
